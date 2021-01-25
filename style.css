@@ -1,1 +1,32 @@
 /*esta es mi primera hoja de estilos*/
+#idbox{background-color: tomato;}
+.box-red{ background-color: red;}
+/*p {
+    background-color: slategrey;
+}
+div > p {
+    background-color: seagreen;
+    color: whitesmoke;
+}
+div > span {
+    background-color: rgb(231, 122, 19);
+}
+p > span {background-color: steelblue;} */
+p.box-red{color: yellow;}
+.cuadro{
+    width: 300px;
+    height: 400px;
+    border-block: 600;
+    block-size:300;
+    overflow-y: scroll;
+    border-style: solid;
+    border-color: red;
+    background-color:rgb(224, 228, 247);
+    color: rgb(5, 17, 71);
+    background-position: center;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
