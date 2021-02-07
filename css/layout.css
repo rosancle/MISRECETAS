@@ -1,0 +1,38 @@
+
+.container-65 {
+    width: 65%;
+    heigth:auto;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0.5em;
+    background-color: gainsboro;
+   }   
+
+.container-35 {
+    width: 35%;
+    height: auto;
+    padding-left:1em;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0.5em;
+    background-color: darkseagreen;
+}   
+
+.container-50 {
+    width:50% ;
+    heigt:auto;
+    padding-top: 0.5em;
+}   
+
+.img-md{
+    width:95%;
+    height: auto;
+}
+
+.separator-block {
+    margin-right: 1em;
+}
+
+.mg-left{
+    margin-left: 1em;
+}

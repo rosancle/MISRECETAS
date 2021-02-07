@@ -1,0 +1,13 @@
+.nav-ppal{
+    display:flex;
+    flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration-color: rgb(185, 185, 201);
+        }
+    
+    .separator{
+        font-weight: 700;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }

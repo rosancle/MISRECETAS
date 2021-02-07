@@ -1,0 +1,15 @@
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5;
+    background-color: rgb(105, 194, 189);
+    margin-top:0;
+}
+
+#header-img{
+    width:140px;
+    height:auto;  
+}
+
+

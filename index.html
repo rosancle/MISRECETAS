@@ -3,34 +3,68 @@
     <head>
         <meta charset="UTF-8">  
         <title> Mis recetas </title>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <meta name="description" content="Página web sobre mis recetas">
+        <meta name="keywords" content="recetas, gastronomía, menú">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="images/logo.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        <h1> Mis recetas </h1>
-        <nav>
-            Inicio
-            |
-            <a href="recetas.html"> Recetas </a>
-            |
-            <a href="contactar.html"> Contactar </a>
+        <header id="header" >
+            <h1 class="fnt-xxl">Mis Recetas</h1>
+            <img id="header-img" src="images/logo.png" alt="Mis Recetas" >
+        </header>
+        
+        <nav class="nav-ppal">
+            <span>Inicio</span>
+            <span class="separator">|</span>
+            <a class="txt-azul txt-under" href="recetas.html">Recetas</a>
+            <span class="separator">|</span>
+            <a class="txt-azul txt-under" href="contactar.html">Contactar</a>
         </nav>
-        <main>
-            <section>
-                <h2 id="rec1"> <a href=""> Receta 1 <br> <img src="_resources/espaguetis-de-calabacin.jpg"></a></h2>
-                <h2 id="rec2"> <a href=""> Receta 2 <br> <img src="_resources/lubina-con-hummus-de-guisantes.jpg"></a></h2>
-                <h2 id="rec3"> <a href=""> Receta 3 <br> <img src="_resources/tiramisu-express.jpg"></a></h2>
-                <h2 id="rec4"> <a href=""> Receta 4 <br> <img src="_resources/vichyssoise-de-esparragos-blancos.jpg"></a></h2>
+        
+        <main class="grid">
+        
+            <section class="container-65">
+                <div class="grid">
+                    <div class="container-50">
+                        <h2 > Espaguetis de calabacin </h2>
+                        <img class="img-md" src="_resources/espaguetis-de-calabacin.jpg">
+                    </div>
+                    <div class="container-50">
+                        <h2> Lubina con hummus de guisantes </h2>
+                        <img class="img-md" src="_resources/lubina-con-hummus-de-guisantes.jpg">
+                    </div>
+                    <div class="container-50">
+                        <h2> Tiramisu express </h2>
+                        <img class="img-md" src="_resources/tiramisu-express.jpg">
+                    </div>
+                    <div class="container-50">
+                        <h2> Vichyssoise de esparragos blancos </h2>
+                        <img class="img-md" src="_resources/vichyssoise-de-esparragos-blancos.jpg">
+                    </div>
+                </div>
             </section>
-            <aside>
+            
+            <aside  class="container-35">
                 <h3> MENU DEL DIA </h3>
-                <ul>
-                    <li><a href="#rec4"> <strong> Receta 4 </strong> </a> </li>
-                    <li><a href="#rec2"> <strong> Receta 2 </strong> </a> </li>
-                    <li><a href="#rec3"> <strong> Receta 3 </strong> </a> </li>
-                </ul>
+                        <ul>
+                            <li><a href=""> <strong> Receta 4 </strong> </a> </li>
+                            <li><a href=""> <strong> Receta 2 </strong> </a> </li>
+                            <li><a href=""> <strong> Receta 3 </strong> </a> </li>
+                        </ul>
+                    
             </aside>
+
         </main>
+        </div>  
+        <!--
         <footer>
             <p><strong> Footer - 2021 </strong></p>
         </footer>
+
+        -->        
     </body>
 </html>
